@@ -1,9 +1,9 @@
-$("a > i").click(function() {
+$(".header-right i:only-child").click(function() {
     $(".hamburger-menu").addClass("active");
 
 })
 
-$(".close > i").click(function() {
+$(".hamburger-menu i:only-child").click(function() {
      $(".hamburger-menu").removeClass("active");
 
  })
